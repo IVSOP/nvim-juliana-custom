@@ -82,7 +82,7 @@ return function(colors, highlight)
     highlight('TabLineFill', { fg = C.fg3, bg = C.bg1 })
     highlight('TabLineSel', default)
     highlight('WarningMsg', { fg = C.yellow3, bg = C.bg3 })
-    highlight('MatchParen', { bold = true }) -- TODO ADD SOMETHING HERE IDK WHAT
+    highlight('MatchParen', { fg = "#FFFF00", bg = C.bg, bold = true })
     highlight('DiagnosticError', { fg = C.red1, bg = 'NONE' })
     highlight('DiagnosticSignError', { fg = C.red1, bold = true, bg = 'NONE' })
     highlight('DiagnosticUnderlineError', {})
