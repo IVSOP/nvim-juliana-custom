@@ -1,4 +1,19 @@
-**NOTICE**: This project has been archived (2024-01-25).
+forked from https://github.com/kaiuri/nvim-juliana, I wanted to change some colors to make this closer to vscode's marina extension and also change lualine
+
+use this syntax for lazy config and not the one in the docs below:
+
+```lua
+return {
+    "IVSOP/nvim-juliana-custom",
+    lazy = false,
+    config = function()
+        opts = {
+            -- ............
+        }
+    end
+}
+```
+
 # nvim-juliana
 
 Port of Sublime's Mariana Theme for Neovim for short attention span devs with Tree-sitter support.
