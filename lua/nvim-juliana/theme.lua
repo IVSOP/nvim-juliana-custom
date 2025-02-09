@@ -533,6 +533,8 @@ return function(colors, highlight)
     highlight('fzf1', { fg = C.red2, bg = C.bg3 })
     highlight('fzf2', { fg = C.red2, bg = C.bg3 })
     highlight('fzf3', { fg = C.red2, bg = C.bg3 })
+    highlight('@_parent', {fg = C.red2})
+    highlight('@variable.builtin', {fg = C.red2})
 
     -- CPP SPECIFIC use :Inspect
     highlight('@constant.macro.cpp', text_cyan)
@@ -546,7 +548,10 @@ return function(colors, highlight)
     -- BASH SPECIFIC
     highlight('@variable.parameter.bash', text_magenta)
     highlight('@function.call.bash', text_yellow)
-    -- PYTHON SPECIFIC
-    --highlight()
-    -- JAVA SPECIFIC
+
+    -- RUST SPECIFIC
+    highlight('@lsp.type.formatSpecifier.rust', text_cyan)
+    highlight('@lsp.typemod.struct.defaultLibrary.rust', text_yellow)
+    highlight('@type.builtin.rust', text_magenta)
+    highlight('@lsp.typemod.unsafe.rust', text_red)
 end
