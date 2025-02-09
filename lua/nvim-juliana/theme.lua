@@ -553,5 +553,5 @@ return function(colors, highlight)
     highlight('@lsp.type.formatSpecifier.rust', text_cyan)
     highlight('@lsp.typemod.struct.defaultLibrary.rust', text_yellow)
     highlight('@type.builtin.rust', text_magenta)
-    highlight('@lsp.typemod.unsafe.rust', text_red)
+    highlight('@lsp.mod.unsafe.rust', text_red)
 end
