@@ -2,7 +2,8 @@
 ---@class Colors
 return {
     fg1          = '#ffffff',
-    fg2          = '#d8dee9',
+    -- fg2          = '#d8dee9',
+    fg2          = '#ffffff',
     fg3          = '#a6acb9',
     fg4          = '#46525c',
     bg1          = '#262626', -- '#444e59',
